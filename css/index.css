@@ -1,0 +1,64 @@
+table {
+    width: 100%;
+}
+
+table, td {
+    border-style: double;
+    border-width: 1px;;
+}
+
+img {
+    width: 250px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 17pt;
+}
+
+header > img {
+    padding: 0 15px;
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    font-size: 14pt;
+    font-weight: 300;
+}
+
+.logo {
+    width: 35px;
+}
+
+.images-plains {
+    text-align: center;
+}
+
+.images-plains > img {
+    width: 24%;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.bg-index {
+    background-image: url('../imagenes/fondos/background-index.jpg');
+}
+
+.bg-services {
+    background-image: url('../imagenes/fondos/background-services.jpg');
+}
+
+.bg-class {
+    background-image: url('../imagenes/fondos/background-class.jpg');
+}
+
+.bg-plains {
+    background-image: url('../imagenes/fondos/background-plains.jpg');
+}
